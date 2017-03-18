@@ -1,8 +1,8 @@
 {
   "name": "pluralsight-redux-starter",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux Pluralsight course by Cory House",
-  "author": "Cory House",
+  "description": "blogit react redux bootstrup contanerized app just for fun !!",
+  "author": "domrev igor",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
@@ -74,6 +74,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
+    "url": "https://github.com/viggin543/blogit"
   }
 }
