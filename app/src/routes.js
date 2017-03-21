@@ -6,7 +6,8 @@ import AboutPage from './components/about/AboutPage';
 import CoursesPage from './components/courses/CoursesPage';
 import ManageCoursesPage from './components/courses/ManageCoursePage';
 import BigLubovski from './components/lubovski/BigLubovski';
-
+import About from './components/lubovski/About';
+import Contact from './components/lubovski/Contact';
 
 //App is always loaded (since its first comp , and alll other comps will be nested as children depending on route )
 export default ( 
@@ -16,6 +17,8 @@ export default (
     <Route path="courses" component={CoursesPage} />
     <Route path="course" component={ManageCoursesPage} />
     <Route path="lubovski" component={BigLubovski} />
+    <Route path="lubovskiAbout" component={About} />
+    <Route path="lubovskiContacts" component={Contact} />
     <Route path="course/:id" component={ManageCoursesPage} />
   </Route>
 );

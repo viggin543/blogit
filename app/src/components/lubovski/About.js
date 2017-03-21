@@ -1,22 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router';
+import LubovskiHeader from './LubovskiHeader';
+
 
 export default class About extends React.Component {
-     render() {
+    render() {
         return (
             <div>
                 <div id="page">
-                    <header>
-                        <div id="menu">
-                            <ul>
-                                <li><a href=".">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div id="logo">
-                            <a href=".">The Big Lebowski</a>
-                        </div>
-                    </header>
+                    <LubovskiHeader />
 
                     <section id="body">
                         <h1>About The Big Lebowski</h1>

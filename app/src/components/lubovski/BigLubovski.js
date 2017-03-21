@@ -1,22 +1,14 @@
 
 import React from 'react';
+import { Link } from 'react-router';
+import LubovskiHeader from './LubovskiHeader';
 
 export default class BigLubovski extends React.Component {
   render() {
     return (
       <div id="page">
-        <header>
-          <div id="menu">
-            <ul>
-              <li><a href=".">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div id="logo">
-            <a href=".">The Big Lebowski</a>
-          </div>
-        </header>
+        <LubovskiHeader />
+
         <section id="body">
           <section id="main">
 
@@ -80,7 +72,6 @@ export default class BigLubovski extends React.Component {
         <hr />
         <footer>
           <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
-
         </footer>
       </div>
     );
