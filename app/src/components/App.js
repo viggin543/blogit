@@ -2,7 +2,6 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Header from './common/Header';
-import BigLubovski from '../BigLubovski';
 class App extends React.Component {
 
     render() {
@@ -10,7 +9,6 @@ class App extends React.Component {
             <div className="container-fluid">
                 <Header loading={this.props.loading}/>
                 {this.props.children}
-                <BigLubovski/>
             </div>
         );
     }
