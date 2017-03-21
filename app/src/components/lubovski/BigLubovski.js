@@ -8,9 +8,14 @@ export default class BigLubovski extends React.Component {
     return (
       <div id="page">
         <LubovskiHeader />
-
-        <section id="body">
-          <section id="main">
+        <section id="body" className="container" >
+          <div className="row">
+            <img src="./images/carousel-1.jpg" alt="1" className="col-md-2 col-md-offset-2"/>
+            <img src="./images/carousel-2.jpg" alt="2" className="col-md-2"/>
+            <img src="./images/carousel-3.jpg" alt="3" className="col-md-2"/>
+            <img src="./images/carousel-4.jpg" alt="4" className="col-md-2"/>
+          </div>
+        <section id="main" className="col-md-8 col-sm-9">
 
             <h1>The Big Lebowski Fan Page</h1>
 
@@ -19,7 +24,7 @@ export default class BigLubovski extends React.Component {
           the Dude? This compulsive fornicator is taking my father for the proverbial ride. Every time a rug is micturated
           upon in this fair city, I have to compensate.</p>
 
-            <img src="./images/lebowski-1.jpg" alt="Bowling" />
+            <img src="./images/lebowski-1.jpg" alt="Bowling"  className="pull-right img-thumbnail"/>
 
             <p>You know, little of this, little of that. Do you have any kalhua? I know how he likes to present himself; Father's
           weakness is vanity. Hence the plot. Please see him, Jeffrey. He's a good man. And thorough. They call Los Angeles
@@ -34,7 +39,7 @@ export default class BigLubovski extends React.Component {
           Is this your homework, Larry? Yeah. Roadie for Metallica. Speed of Sound Tour. You want a toe? I can get you a
           toe, believe me. There are ways, Dude. You don't wanna know about it, believe me.</p>
 
-            <img src="./images/lebowski-3.jpg" alt="Rug" />
+            <img src="./images/lebowski-3.jpg" alt="Rug" className="pull-right img-thumbnail"/>
 
             <p>Shomer shabbos. Ja, vee could really do it, Lebowski. We want that money, Lebowski. I spent most of my time occupying
           various, um, administration buildings, smoking thai-stick, breaking into the ROTC and bowling. These men are nihilists,
@@ -50,15 +55,14 @@ export default class BigLubovski extends React.Component {
           Larry here. Isn't it, Larry? I hope you're not avoiding this call because of the rug, which, I assure you, is not
           a problem. Who's in pyjamas, Walter? Za, okay, I bring mein toolz. The Knutsens. It's a wandering daughter job.
           Bunny Lebowski, man. Her real name is Fawn Knutsen. Her parents want her back.</p>
-          </section>
-
-          <section id="sidebar">
+        </section>
+        <section id="sidebar" className="col-md-4 col-sm-3">
             <h2>Sidebar</h2>
             <p>It increases the chances of conception. Would it be possible for me to get my twenty grand in cash? I gotta check
           this with my accountant of course. JUST BECAUSE WE'RE BEREAVED DOESN'T MEAN WE'RE SAPS! Forget it, Donny. You're
           out of your element. I have no choice but to tell these bums that they should do whatever is necessary to recover
           their money from you, Jeffrey Lebowski.</p>
-            <img src="./images/lebowski-2.jpg" alt="Rules" />
+            <img src="./images/lebowski-2.jpg" alt="Rules"  className="pull-right img-thumbnail"/>
 
 
             <p>I got a nice quiet beach community here, and I aim to keep it nice and quiet. I like your style, Dude. Nice marmot.
@@ -68,9 +72,9 @@ export default class BigLubovski extends React.Component {
           before his time. In your wisdom you took him, Lord. As you took so many bright flowering young men, at Khe San
           and Lan Doc.</p>
           </section>
-        </section>
+      </section>
         <hr />
-        <footer>
+        <footer className="container">
           <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
         </footer>
       </div>

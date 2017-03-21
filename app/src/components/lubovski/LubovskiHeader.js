@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 const LubovskiHeader = () => {
 
     return (
-        <header>
+        <header className="container">
             <div id="menu">
                 <ul>
                     <li><Link to="/lubovski" activeClassName="active">Home</Link></li>
