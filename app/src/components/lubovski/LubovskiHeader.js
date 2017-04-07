@@ -6,7 +6,7 @@ const LubovskiHeader = () => {
 
     return (
         <header className="container">
-            <div id="menu">
+            <div id="menu" className="navbar navbar-default">
                 <ul>
                     <li><Link to="/lubovski" activeClassName="active">Home</Link></li>
                     <li><Link to="/lubovskiAbout" activeClassName="active">About</Link></li>
