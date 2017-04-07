@@ -2,12 +2,12 @@
 import React from 'react';
 import { Link } from 'react-router';
 import LubovskiHeader from './LubovskiHeader';
+import Footer from './Footer';
 
 export default class BigLubovski extends React.Component {
   render() {
     return (
       <div id="page">
-        <LubovskiHeader />
         <section id="body" className="container" >
           <div className="row hidden-xs">
             <img src="./images/carousel-1.jpg" alt="1" className="col-md-2 col-sm-2 col-sm-offset-2 col-md-offset-2" />
@@ -19,7 +19,7 @@ export default class BigLubovski extends React.Component {
 
             <h1>The Big Lebowski Fan Page</h1>
 
-            <p>Lebowski ipsum when will you find these guys? I mean, do you have any promising leads? Yeah, well, right man, there
+            <p className="lead">Lebowski ipsum when will you find these guys? I mean, do you have any promising leads? Yeah, well, right man, there
             are many facets to this, uh, you know, many interested parties. If I can find your money, man— what's in it for
             the Dude? This compulsive fornicator is taking my father for the proverbial ride. Every time a rug is micturated
             upon in this fair city, I have to compensate.</p>
@@ -74,9 +74,7 @@ export default class BigLubovski extends React.Component {
           </section>
         </section>
         <hr />
-        <footer className="container">
-          <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
-        </footer>
+        <Footer/>
       </div>
     );
   }

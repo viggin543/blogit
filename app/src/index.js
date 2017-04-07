@@ -9,7 +9,6 @@ import { loadAuthors } from './components/actions/authorActions';
 import { Provider } from 'react-redux';
 import routes from './routes';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './styles/styles.css'; //Webpack can import CSS files too!
 import '../node_modules/toastr/build/toastr.min.css';
 
 const store = configureStore({});

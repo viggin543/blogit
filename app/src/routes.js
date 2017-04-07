@@ -11,14 +11,14 @@ import Contact from './components/lubovski/Contact';
 
 //App is always loaded (since its first comp , and alll other comps will be nested as children depending on route )
 export default ( 
-  <Route path="/" component={App}>
-    <IndexRoute component={HomePage} />
-    <Route path="about" component={AboutPage} />
-    <Route path="courses" component={CoursesPage} />
-    <Route path="course" component={ManageCoursesPage} />
-    <Route path="lubovski" component={BigLubovski} />
-    <Route path="lubovskiAbout" component={About} />
-    <Route path="lubovskiContacts" component={Contact} />
-    <Route path="course/:id" component={ManageCoursesPage} />
+  <Route path="/"                   component={App}>
+    <IndexRoute                     component={HomePage} />
+    <Route path="about"             component={AboutPage} />
+    <Route path="courses"           component={CoursesPage} />
+    <Route path="course"            component={ManageCoursesPage} />
+    <Route path="lubovski"          component={BigLubovski} />
+    <Route path="lubovskiAbout"     component={About} />
+    <Route path="lubovskiContacts"  component={Contact} />
+    <Route path="course/:id"        component={ManageCoursesPage} />
   </Route>
 );

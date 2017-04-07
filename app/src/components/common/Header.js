@@ -1,11 +1,10 @@
 import React, {PropTypes} from 'react';
 import { Link, IndexLink } from 'react-router';
 import LoadingDots from './LoadingDots';
+import LubovskiHeader  from '../lubovski/LubovskiHeader';
 
-const Header = ({loading}) => {
-  return (
-    <nav>
-      <IndexLink to="/" activeClassName="active">Home</IndexLink>
+    /*<nav>
+      
       {" | "}
       <Link to="/about" activeClassName="active">About</Link>
       {" | "}
@@ -13,7 +12,10 @@ const Header = ({loading}) => {
       {" | "}
       <Link to="/courses" activeClassName="active">courses</Link>
       {loading && <LoadingDots interval={100} dots={20} />}
-    </nav>
+    </nav>*/
+const Header = ({loading}) => {
+  return (
+    <LubovskiHeader/>
   );
 };
 

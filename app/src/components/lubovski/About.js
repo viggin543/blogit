@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router';
 import LubovskiHeader from './LubovskiHeader';
+import Footer from './Footer';
+
 
 
 export default class About extends React.Component {
     render() {
         return (
             <div>
-                <div id="page">
-                    <LubovskiHeader />
-
+                <div id="page" className="container">
                     <section id="body">
                         <h1>About The Big Lebowski</h1>
                         <p>Yeah well, that's just, ya know, like, your opinion, man. Walter, you can't do that. These guys're like me, they're pacifists. Smokey was a conscientious objector. Your "revolution" is over, Mr. Lebowski! Condolences! The bums lost! Brandt can't watch though. Or he has to pay a hundred. HERE'S WHAT HAPPENS, LARRY! Darkness warshed over the Dude— darker'n a black steer's tookus on a moonless prairie night. There was no bottom.</p>
@@ -47,9 +47,7 @@ export default class About extends React.Component {
                         </ul>
                     </section>
                     <hr />
-                    <footer>
-                        <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
-                    </footer>
+                    <Footer/>
                 </div>
             </div>);
     }
