@@ -1,13 +1,15 @@
 // This component handles the App template used on every page.
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
-import Header from './common/Header';
-class App extends React.Component {
+import LoadingDots from './common/LoadingDots';
+import LubovskiHeader  from './lubovski/LubovskiHeader';
 
+
+class App extends React.Component {
     render() {
         return (
             <div>
-                <Header loading={this.props.loading}/>
+                <LubovskiHeader/>
                 {this.props.children}
             </div>
         );

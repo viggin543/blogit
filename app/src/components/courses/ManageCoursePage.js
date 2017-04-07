@@ -53,7 +53,7 @@ export class ManageCoursePage extends React.Component {
 
     render() {
         return (
-            <CourseForm
+            <CourseForm  className="container"
                 course     = {this.state.course}
                 errors     = {this.state.errors}
                 onChange   = {this.updateCourseState}

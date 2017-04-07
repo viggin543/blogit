@@ -18,7 +18,7 @@ class CoursesPage extends React.Component {
 
     render() {
         return (
-        <div>
+        <div  className="container">
             <h1>Courses</h1>
             <input type="submit"
                value="Add Course"
