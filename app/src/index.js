@@ -8,6 +8,7 @@ import { loadCourses } from './components/actions/courseActions';
 import { loadAuthors } from './components/actions/authorActions';
 import { Provider } from 'react-redux';
 import routes from './routes';
+import 'bootstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/toastr/build/toastr.min.css';
 import './styles/site.css';
