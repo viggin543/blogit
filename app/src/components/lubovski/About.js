@@ -21,34 +21,116 @@ export default class About extends React.Component {
                         <p>One a those days, huh. Wal, a wiser fella than m'self once said, sometimes you eat the bar and sometimes the bar, wal, he eats you. 1972 Pontiac LeBaron. It increases the chances of conception. Walter, this isn't a First Amendment thing. But that is up to little Larry here. Isn't it, Larry? And I'm talkin' about the Dude here —sometimes there's a man who, wal, he's the man for his time'n place, he fits right in there—and that's the Dude, in Los Angeles.</p>
 
                         <p>Mr. Lebowski asked me to repeat that: Her life is in your hands. They're nihilists. Now this story I'm about to unfold took place back in the early nineties —just about the time of our conflict with Sad'm and the Eye-rackies. I only mention it 'cause some- times there's a man—I won't say a hee-ro, 'cause what's a hee-ro?—but sometimes there's a man. Our basic freedoms.</p>
+
+
+                       <h3>Cast</h3>
+                       <div className="row">
+                            <div className="able-responsive col-md-6">
+                                <table className="table table-striped table-bordered table-hover table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th>Actor</th>
+                                            <th>Character</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Jeff Bridges</td>
+                                            <td>Jeffrey Lebowski - The Dude</td>
+                                        </tr>
+                                        <tr>
+                                            <td>John Goodman</td>
+                                            <td>Walter Sobchak</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Julianne Moore</td>
+                                            <td>Maude Lebowski</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Steve Buscemi</td>
+                                            <td>Theodore Donald 'Donny' Kerabatsos</td>
+                                        </tr>
+                                        <tr>
+                                            <td>David Huddleston</td>
+                                            <td>Jeffrey Lebowski - The Big Lebowski</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Philip Seymour Hoffman</td>
+                                            <td>Brandt</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tara Reid</td>
+                                            <td>Bunny Lebowski</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Philip Moon</td>
+                                            <td>Woo, Treehorn Thug</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark Pellegrino</td>
+                                            <td>Blond Treehorn Thug</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Peter Stormare</td>
+                                            <td>Nihilist #1, Uli Kunkel / 'Karl Hungus'</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Flea</td>
+                                            <td>Nihilist #2, Kieffer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Torsten Voges</td>
+                                            <td>Nihilist #3, Franz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jimmie Dale Gilmore</td>
+                                            <td>Smokey</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jack Kehler</td>
+                                            <td>Marty</td>
+                                        </tr>
+                                        <tr>
+                                            <td>John Turturro</td>
+                                            <td>Jesus Quintana</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
                         <h3>Photo Attributions</h3>
-                        <ul>
-                            <li>
+                        <ul className="list-group col-md-6">
+                            <li className="list-group-item">
+                                <span className="badge">
+                                    <span className="glyphicon glyphicon-headphones"></span>
+                                </span>
                                 <a href="http://www.flickr.com/photos/78011127@N00" property="cc:attributionName" rel="cc:attributionURL" target="_blank">ginnerobot</a> on <a href="http://www.flickr.com/photos/78011127@N00/3288988832" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                             </li>
-                            <li>
+                            <li className="list-group-item active">
                                 <a href="http://www.flickr.com/photos/a4gpa" property="cc:attributionName" rel="cc:attributionURL" target="_blank">a4gpa</a> on <a href="http://www.flickr.com/photos/a4gpa/2311699407/" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                             </li>
-                            <li>
+                            <li className="list-group-item">
                                 <a href="http://www.flickr.com/photos/wonderlane" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Wonderlane</a> on <a href="http://www.flickr.com/photos/wonderlane/5365699031/" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                             </li>
-                            <li>
+                            <li className="list-group-item">
                                 <a href="http://www.flickr.com/photos/cowbite" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Cowbite</a> on <a href="http://www.flickr.com/photos/cowbite/3066000817/" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                             </li>
-                            <li>
+                            <li className="list-group-item">
                                 <a href="http://en.wikipedia.org/wiki/File:Moore_and_Bridges_Lebowskifest.jpg" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Wikipedia</a>
                             </li>
-                            <li>
+                            <li className="list-group-item">
                                 <a href="http://www.flickr.com/photos/stevensnodgrass" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Steven Snodgrass</a> on <a href="http://www.flickr.com/photos/stevensnodgrass/8187375688" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                             </li>
-                            <li>
+                            <li className="list-group-item">
                                 <a href="http://www.flickr.com/photos/66992990@N00" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Joanna Bourne</a> on <a href="http://www.flickr.com/photos/66992990@N00/6715373883" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                             </li>
                         </ul>
                     </section>
                     <hr />
-                    <Footer/>
                 </div>
+                <Footer/>
+
             </div>);
     }
 }
