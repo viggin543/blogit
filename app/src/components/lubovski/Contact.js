@@ -12,31 +12,56 @@ export default class Contacts extends React.Component {
                     <section id="body">
                         <h1>Contact Us</h1>
                         <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
-                        <form>
-                                <div className="form-group">
-                                <label>Your Name </label>
-                                <input className="form-control"/>
-                                </div>
-                                <div className="form-group">
-                                <label>Email </label>
-                                <input className="form-control"/>
-                                </div>
-                                <div className="form-group">
-                                <label>Reason</label>
-                                <select className="form-control">
-                                    <option>Adoration</option>
-                                    <option>Ordering a White Russian</option>
-                                    <option>Complaint</option>
-                                    <option>I am lost</option>
-                                </select>
-                                </div>
-                                <div className="form-group">
-                                <label>Message</label>
-                                </div>
-                                <textarea className="form-control" cols="40" rows="6"></textarea>
-                                <input  className="btn" type="submit" value="Submit" />
-
-                        </form>
+                        <div className="col-md-6">
+                            <form className="form-horizontal">
+                                    <div className="form-group">
+                                        <label htmlFor="nameInput"
+                                               className="control-label col-md-2">
+                                               Your Name 
+                                        </label>
+                                        <div className="col-md-10">
+                                            <input type="text"
+                                                    name="nameInput" 
+                                                    className="form-control"
+                                                    placeholder="e.g your name"
+                                                    />
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <label  className="control-label col-md-2" 
+                                                htmlFor="emailInput">Email
+                                        </label>
+                                        <div className="col-md-10">
+                                            <input className="form-control"
+                                                    name="emailInput"
+                                                    type="email"
+                                                    placeholder="yourName@protonMail.com"/>
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label col-md-2" >Reason</label>
+                                        <div className="col-md-10">
+                                            <select className="form-control">
+                                                <option>Adoration</option>  
+                                                <option>Ordering a White Russian</option>
+                                                <option>Complaint</option>
+                                                <option>I am lost</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="control-label col-md-2">Message</label>
+                                        <div className="col-md-10">
+                                            <textarea className="form-control" cols="40" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-2 col-md-offset-2">
+                                        <div className="form-group">
+                                            <input  className="btn btn-success" type="submit" value="Submit" />
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
                         <h3>Our fake address</h3>
                         <div>
                             <address>
